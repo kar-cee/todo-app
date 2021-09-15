@@ -45,7 +45,9 @@ function App() {
   ]
   // localStorage.setItem("todos",defaultList)
 
+  // this is for challenge purpose
   const [listItems, setlist] = useState(defaultList)
+  // const [listItems, setlist] = useState(parsedTodo)  // if you want have local storage
   const [filteredList, setfilteredList] = useState(listItems)
   const [theme, settheme] = useState("dark")
   // useEffect will run after rendering the DOM, so rendered list is stored in local storage.
